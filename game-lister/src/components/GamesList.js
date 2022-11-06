@@ -17,7 +17,7 @@ function GamesList(){
 
     // write a completed click handler
     function handleCompletedClick(completedGame){
-        console.log("completed click was heard")
+        console.log("completed click was heard in GameList")
         const updatedGamesList = games.map((game) => {
             if (game.completed === completedGame.completed) {
                 return completedGame
