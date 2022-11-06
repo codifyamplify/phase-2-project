@@ -1,0 +1,30 @@
+time to sketch out the structure of what the user will see
+SKETCH #1
+
+Header: Game Lister
+subheader: Your one-stop-shop to keep track of your dream playlist of the games you are most excited about!
+-no buttons, only text
+-----------------------
+
+Module: Add a New Game
+subheader: Here you can add a game that you would like to play someday, and never forget it until you mark it off as "completed!" Just provide the name of the game in the "text field", and an image URL in the "image URL field." (We recommend grabbing an image URL from igdb.com - the internet game database!)
+- self contained module that will receive text input (game name) and text input (image URL)
+- each text field will need to have state to capture the user inputted text
+
+Module: Your Dream Playlist
+subheader: Here is your handmade list of all the games you are excited to get to someday. Never forget that hidden gem you heard about from an old friend!
+- there will be a short list of games included at startup
+- a variable will store a gamesList, which will be mapped over, and each will be rendered into a card component with the following:
+    - a game name
+    - a game cover image
+    - a "completed" checkbox
+THIS VERSION DOES NOT SATISFY ROUTING REQUIREMENTS. A NAVBAR COMPONENT WILL NEED TO BE ADDED.
+
+Component heirarchy sketch:
+
+App
+>>Header(non functional)
+>>gameList
+>>>gameForm (create a new game entry)
+>>>gameCard
+>>gameFilter(possibly add filter by completed status functionality)

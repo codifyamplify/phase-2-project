@@ -1,0 +1,34 @@
+{
+    "games": [
+        {
+            "id": 1,
+            "name": "Xenogears",
+            "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pp9.png",
+            "completed": false
+        }, 
+        {
+            "id": 2,
+            "name": "Silent Hill 2",
+            "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyg.png",
+            "completed": true
+        }, 
+        {
+            "id": 3,
+            "name": "The Banner Saga",
+            "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27ah.png",
+            "completed": false
+        }, 
+        {
+            "id": 4,
+            "name": "Alan Wake",
+            "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3swj.png",
+            "completed": true
+        }, 
+        {
+            "id": 5,
+            "name": "Planescape Torment",
+            "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kpe.png",
+            "completed": false
+        }
+    ]
+}

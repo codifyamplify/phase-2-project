@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  max-width: 1400px;
+  background:whitesmoke
 }
 
 /* .App-logo {
@@ -12,6 +14,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
+
+.div {
+  background-color: whitesmoke;
+  border:brown
+}
 
 .paragraph {
   background-color:rgb(53, 30, 228)
