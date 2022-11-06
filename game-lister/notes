@@ -24,7 +24,11 @@ Component heirarchy sketch:
 
 App
 >>Header(non functional)
->>gameList
->>>gameForm (create a new game entry)
->>>gameCard
->>gameFilter(possibly add filter by completed status functionality)
+>>GamesList
+>>>GameForm (create a new game entry)
+>>>GameCard
+>>GameFilter(possibly add filter by completed status functionality)
+
+State heirarchy sketch:
+App
+>>GamesList(fetches data from db.json)(passes down to GameCard)
