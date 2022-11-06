@@ -16,8 +16,8 @@
 } */
 
 .div {
-  background-color: whitesmoke;
-  border:brown
+  background-color:aquamarine;
+
 }
 
 .paragraph {
@@ -39,6 +39,14 @@
   color: #61dafb;
 }
 
+.h1 {
+  color:brown
+}
+
+.h3 {
+  color:darkblue
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -47,3 +55,12 @@
     transform: rotate(360deg);
   }
 } */
+.games {
+  background-color:burlywood
+}
+
+.li {
+  border-style: solid;
+  border-color: brown;
+  padding-bottom:60px
+}

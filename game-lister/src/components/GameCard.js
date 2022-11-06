@@ -1,17 +1,28 @@
-import React, {useState} from "react"
+import React from "react"
 
 // needs to receive games state info, more specifically an individual game's info
 
-function GameCard(){
-    console.log("inside GameCard")
+function GameCard({game, onCompletedClick}){
+    // console.log("inside GameCard")
     // console.log("props in GameCard", games)
+    // console.log("inside GameCard: " + game)
     return (
-        <div>
-            <h3>this will be a game card</h3>
+        <li className="li">
+            {/* <h3>this will be a game card</h3> */}
             {/* game name */}
+            <h4>{game.name}</h4>
             {/* game image */}
-            {/* completed status */}
-        </div>
+            <img src={game.imageURL}></img>
+            {/* commpleted status, this will be a checkbock */}
+            <span></span>
+            <label>
+                Completed!
+                <input 
+                type="checkbox"
+                onClick={onCompletedClick}
+                />
+            </label>
+        </li>
     )
 }
 
