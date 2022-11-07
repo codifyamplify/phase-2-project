@@ -29,6 +29,11 @@
       "name": "Planescape Torment",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kpe.png",
       "completed": false
+    },
+    {
+      "name": "Trails in the Sky the 3rd",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23da.png",
+      "id": 6
     }
   ]
 }

@@ -4,14 +4,26 @@
   background:whitesmoke
 }
 
-.div {
+.header {
+  background-color:rgb(160, 109, 73);
+  border-style: solid;
+  border-color: brown;
+  padding: 20px;
+}
+
+.gameList {
   background-color:aquamarine;
   border-style: solid;
   border-color: brown;
+  padding: 20px;
 }
 
-.dirtyDiv {
-  background-color:aliceblue
+.newGameComponent {
+  background-color:rgba(65, 157, 236, 0.81);
+  padding: 20px;
+
+  /* border-color: brown; */
+
 }
 
 .paragraph {
@@ -20,6 +32,10 @@
 
 .newGameForm {
   background-color: azure;
+  border-style: solid;
+  border-color: brown;
+  padding: 20px;
+
 }
 
 .App-header {
