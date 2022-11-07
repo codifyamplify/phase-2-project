@@ -18,6 +18,7 @@ subheader: Here is your handmade list of all the games you are excited to get to
     - a game name
     - a game cover image
     - a "completed" checkbox
+    --abandoning state update for checknbox. PATCH request not required
 THIS VERSION DOES NOT SATISFY ROUTING REQUIREMENTS. A NAVBAR COMPONENT WILL NEED TO BE ADDED.
 
 Component heirarchy sketch:

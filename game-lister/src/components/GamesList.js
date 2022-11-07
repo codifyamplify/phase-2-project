@@ -12,21 +12,19 @@ function GamesList(){
     }, [])
     // console.log("inside gameslist")
     // console.log(games)
-
-    const listedGames = games
-
+    
     // write a completed click handler
-    function handleCompletedClick(completedGame){
-        console.log("completed click was heard in GameList")
-        const updatedGamesList = games.map((game) => {
-            if (game.completed === completedGame.completed) {
-                return completedGame
-            } else {
-                return game
-            }
-        })
-        setGames(updatedGamesList)
-    }
+    // function handleCompletedClick(completedGame){
+    //     console.log("completed click was heard in GameList")
+    //     const updatedGamesList = games.map((game) => {
+    //         if (game.completed === completedGame.completed) {
+    //             return completedGame
+    //         } else {
+    //             return game
+    //         }
+    //     })
+    //     setGames(updatedGamesList)
+    // }
 
 
     return (
@@ -35,11 +33,12 @@ function GamesList(){
             <h3 className="paragraph">Here is your handmade list of all the games you are excited to get to someday. Never forget that hidden gem you heard about from an old friend!</h3>
             {/* create an unordered list for your games to render in */}
             <ul className="games">
-                {listedGames.map((game) => (
+                {games.map((game) => (
                     <GameCard
                         key={game.id}
                         game={game}
-                        onCompletedClick={handleCompletedClick}
+                        // onCompletedClick={handleCompletedClick}
+                        // onCheckedChange={handleCheckedChange}
                     />
                 ))}
             </ul>

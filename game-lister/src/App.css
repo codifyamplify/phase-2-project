@@ -4,24 +4,22 @@
   background:whitesmoke
 }
 
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
-
 .div {
   background-color:aquamarine;
+  border-style: solid;
+  border-color: brown;
+}
 
+.dirtyDiv {
+  background-color:aliceblue
 }
 
 .paragraph {
-  background-color:rgb(53, 30, 228)
+  background-color:cadetblue
+}
+
+.newGameForm {
+  background-color: azure;
 }
 
 .App-header {
