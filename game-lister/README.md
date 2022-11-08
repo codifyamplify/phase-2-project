@@ -30,6 +30,8 @@
 - https://www.npmjs.com/package/json-server
 - Youtube video demonstration:
 - https://youtu.be/o-gxwa3pcA0
+- Medium blog post link
+- https://medium.com/@codifyamplify/react-states-and-crud-2cf0eee20162
 
 
 This project was created with react-create-app, and what follows is standard README.md input generated in the process.

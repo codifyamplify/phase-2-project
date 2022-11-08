@@ -3,8 +3,8 @@ import React, {useState} from "react"
 import Home from "./Home"
 import GamesList from "./GamesList"
 import AddNewGame from "./AddNewGame"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import PageNotFound from './PageNotFound';
 import NavBar from './NavBar';
 

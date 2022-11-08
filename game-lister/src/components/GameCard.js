@@ -1,7 +1,7 @@
 import React, {useState} from "react"
 
 
-function GameCard({game, onCompletedClick, onCheckedChange}){
+function GameCard({game}){
 
 
     return (

@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react"
 import GameCard from "./GameCard"
-import AddNewGame from "./AddNewGame"
 
 function GamesList({games, setGames}){
     useEffect(() => {
