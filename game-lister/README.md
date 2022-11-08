@@ -8,6 +8,7 @@
 
 # Installation
 - Fork and clone the repo to your local machine. Click the "fork" button on the GitHub repo, click the green Code button and ensure "SSH" is selected then click the "copy" button or highlight and copy the repo link. In your machine's terminal create a new directory for the project with the "mkdir" + "your new directory name here" command. We will use "game-lister" as an example name for your directory. Type "cd game-lister" and press enter. Now type "git clone" + paste the SSH link here, and press enter. You have now cloned the project to your local machine.
+- Ensure you are in /game-lister directory to start your json-server and npm start. (instructions to follow)
 - Game Lister uses NPM, React-Router, and json-server.
 - JSON-SERVER: Json-server is used to simulated a server. If you do not have json-server installed on your machine, open your terminal (your laptops terminal or the terminal in your Visual Code Studio or similar software) and paste this command and press enter:
 - npm install -g json-server
