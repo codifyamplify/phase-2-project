@@ -57,6 +57,7 @@ notes to self 11/7/22: install react router by running this command:
 - use at least THREE routes
 - using a Switch makes sure that the first (truthy) path found is the ONLY path loaded (no unintended stacking appending)
 - INCLUDE NAVBAR. this will require a component reorganization.
+- Only use exact pathing in Routes, NOT IN LINKS. in links use to="/header"
 
 Updated Component Heirarchy Sketch:
 - App
