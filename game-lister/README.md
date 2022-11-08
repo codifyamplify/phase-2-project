@@ -28,6 +28,9 @@
 # Links and Resources
 - Json-server installation help MacOS instructions
 - https://www.npmjs.com/package/json-server
+- Youtube video demonstration:
+- https://youtu.be/o-gxwa3pcA0
+
 
 This project was created with react-create-app, and what follows is standard README.md input generated in the process.
 

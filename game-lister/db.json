@@ -64,6 +64,11 @@
       "name": "Dishonored",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcs.png",
       "id": 12
+    },
+    {
+      "name": "La Noire",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ldn.png",
+      "id": 13
     }
   ]
 }
