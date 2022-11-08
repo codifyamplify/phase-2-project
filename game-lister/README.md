@@ -1,5 +1,32 @@
-This is a new readme
+# Game Lister
 
+# Description
+- Game Lister is to provide a single-page-application with which the user can log video games they would like to play in the future. After all, life is busy and long stretches of time between free time can fog our memories.
+
+# Goals
+- The goal of Game Lister is to be a simple to use SPA with which the user can provide a game name and an image URL for a game cover / poster that will be saved into a list. 
+
+# Installation
+- Fork and clone the repo to your local machine. Click the "fork" button on the GitHub repo, click the green Code button and ensure "SSH" is selected then click the "copy" button or highlight and copy the repo link. In your machine's terminal create a new directory for the project with the "mkdir" + "your new directory name here" command. We will use "game-lister" as an example name for your directory. Type "cd game-lister" and press enter. Now type "git clone" + paste the SSH link here, and press enter. You have now cloned the project to your local machine.
+- Game Lister uses NPM and json-server.
+- Json-server is used to simulated a server. If you do not have json-server installed on your machine, open your terminal (your laptops terminal or the terminal in your Visual Code Studio or similar software) and paste this command and press enter:
+- npm install -g json-server
+- Wait for the process to complete on it's own. When it is finished you are ready to get your simulated server up and running. To start the server and to point it to a database of info it will use to simulate a server, paste this into your terminal and press enter:
+- json-server --watch db.json
+- In your terminal type "npm install" and press enter to install Node-Package-Manager.
+- When finished run the command "npm start."
+- You will be prompted to choose whether to run this command on a different port. Select yes and your app should start in your browser.
+
+# Project Status
+- Project is awaiting instructor review, and will possibly be revisited in order to expand functionality as new coding concepts are learned by the owner.
+
+# Links and Resources
+- Json-server installation help MacOS instructions
+- https://www.npmjs.com/package/json-server
+
+This project was created with react-create-app, and what follows is standard README.md input generated in the process.
+
+========================================================
 
 # Getting Started with Create React App
 
