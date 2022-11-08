@@ -54,6 +54,11 @@
       "name": "S.T.A.L.K.E.R.",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pz7.png",
       "id": 10
+    },
+    {
+      "name": "Metro 2033",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd6.png",
+      "id": 11
     }
   ]
 }

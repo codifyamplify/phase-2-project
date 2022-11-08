@@ -11,6 +11,13 @@
   padding: 20px;
 }
 
+.navBar {
+  background-color:rgb(160, 109, 73);
+  border-style: solid;
+  border-color: brown;
+  padding: 20px;
+}
+
 .home {
   background-color:rgb(160, 109, 73);
   border-style: solid;
