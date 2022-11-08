@@ -24,7 +24,7 @@ function GameCard({game, onCompletedClick, onCheckedChange}){
 
 
     return (
-        <li className="li">
+        <div className="gameCard">
             {/* <h3>this will be a game card</h3> */}
             {/* game name */}
             <h4>{game.name}</h4>
@@ -40,7 +40,7 @@ function GameCard({game, onCompletedClick, onCheckedChange}){
                 // onCheck={handleCompletedClick}
                 />
             </label>
-        </li>
+        </div>
     )
 }
 

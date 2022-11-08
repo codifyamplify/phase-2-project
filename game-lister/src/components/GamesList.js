@@ -33,7 +33,7 @@ function GamesList({games, setGames}){
     return (
         <div className="gameList">
             <h2 className="h1">Game List</h2>
-            <h3 className="paragraph">Here is your handmade list of all the games you are excited to get to someday. Never forget that hidden gem you heard about from an old friend!</h3>
+            <h3 className="">Here is your handmade list of all the games you are excited to get to someday. Never forget that hidden gem you heard about from an old friend!</h3>
             {/* create an unordered list for your games to render in */}
             <ul className="games">
                 {games.map((game) => (
@@ -43,8 +43,9 @@ function GamesList({games, setGames}){
                         // onAddGame={handleAddGame}
                         // onCompletedClick={handleCompletedClick}
                         // onCheckedChange={handleCheckedChange}
-                    />
+                    />                    
                 ))}
+                
             </ul>
         </div>
     )

@@ -51,6 +51,7 @@ function AddNewGame({onAddGame}){
         >
             <label>
                 Name:
+                <br></br>
                     <input 
                         type="text"
                         name="name"
@@ -61,7 +62,8 @@ function AddNewGame({onAddGame}){
             <br></br>
             <br></br>
             <label>
-                Image URL
+                Image URL:
+                <br></br>
                     <input 
                         type="text"
                         name="imageURL"

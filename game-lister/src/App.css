@@ -1,40 +1,68 @@
-.App {
+/* .App {
   text-align: center;
   max-width: 1400px;
   background:whitesmoke
-}
+} */
 
-.block {
+/* .block {
   background-color:rgb(160, 109, 73);
   border-style: solid;
   border-color: brown;
   padding: 20px;
+} */
+
+.gameCard {
+  min-width: 800px;
+  border-style: solid;
+  border-color: rgb(17, 9, 66);
+  padding: 20px;
+
 }
 
 .navBar {
-  background-color:rgb(160, 109, 73);
+  background-color:rgb(39, 198, 247);
   border-style: solid;
-  border-color: brown;
+  border-color: rgb(17, 9, 66);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
 }
 
 .home {
-  background-color:rgb(160, 109, 73);
+  background-color:cadetblue;
   border-style: solid;
-  border-color: brown;
+  border-color:rgb(83, 61, 27);
   padding: 20px;
+  text-align: center;
+
 }
 
 .gameList {
-  background-color:aquamarine;
+  text-align: center;
   border-style: solid;
   border-color: brown;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
 }
 
 .newGameComponent {
   background-color:rgba(65, 157, 236, 0.81);
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 
   /* border-color: brown; */
 
@@ -52,7 +80,7 @@
 
 }
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -61,7 +89,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -71,9 +99,9 @@
   color:brown
 }
 
-.h3 {
+/* .h3 {
   color:darkblue
-}
+} */
 
 /* @keyframes App-logo-spin {
   from {
