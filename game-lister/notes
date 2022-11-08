@@ -74,7 +74,8 @@ Components Sketch #2 - covering only major changes to component AND new componen
 Daily Goals: 11/8/22
 - build out README.md <check!>
 - clear out console.logs <check!>
-- clear out commented-out / rejected code <>
+- clear out commented-out / rejected code <check!>
+- remove unused Block component
 - verify everything still works; routes, add functions
 - blog post
 - project video

@@ -8,12 +8,15 @@
 
 # Installation
 - Fork and clone the repo to your local machine. Click the "fork" button on the GitHub repo, click the green Code button and ensure "SSH" is selected then click the "copy" button or highlight and copy the repo link. In your machine's terminal create a new directory for the project with the "mkdir" + "your new directory name here" command. We will use "game-lister" as an example name for your directory. Type "cd game-lister" and press enter. Now type "git clone" + paste the SSH link here, and press enter. You have now cloned the project to your local machine.
-- Game Lister uses NPM and json-server.
-- Json-server is used to simulated a server. If you do not have json-server installed on your machine, open your terminal (your laptops terminal or the terminal in your Visual Code Studio or similar software) and paste this command and press enter:
+- Game Lister uses NPM, React-Router, and json-server.
+- JSON-SERVER: Json-server is used to simulated a server. If you do not have json-server installed on your machine, open your terminal (your laptops terminal or the terminal in your Visual Code Studio or similar software) and paste this command and press enter:
 - npm install -g json-server
 - Wait for the process to complete on it's own. When it is finished you are ready to get your simulated server up and running. To start the server and to point it to a database of info it will use to simulate a server, paste this into your terminal and press enter:
 - json-server --watch db.json
-- In your terminal type "npm install" and press enter to install Node-Package-Manager.
+
+- NPM: In your terminal type "npm install" and press enter to install Node-Package-Manager.
+- REACT-ROUTER: paste this into your terminal and press enter:
+- npm install react-router-dom@v5
 - When finished run the command "npm start."
 - You will be prompted to choose whether to run this command on a different port. Select yes and your app should start in your browser.
 - If you land on a Page Not Found do not worry, there ought to be a navbar at the top of the page with links to the contents of the app.
