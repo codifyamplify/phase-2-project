@@ -3,12 +3,8 @@ import React, {useState} from "react"
 // needs to receive games state info, more specifically an individual game's info
 
 function GameCard({game, onCompletedClick, onCheckedChange}){
-    // console.log("inside GameCard")
-    // console.log("props in GameCard", games)
-    // console.log("inside GameCard: " + game)
 // ABANDONING PATCH ATTEMPT. NOT REQUIRED FOR PROJECT
     // function handleCompletedClick(){
-    //     console.log("completed click was heard inside gamecard")
     //     fetch(`http://localhost:3000/games/${game.id}`, {
     //         method: "PATCH",
     //         headers: {

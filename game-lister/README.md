@@ -16,6 +16,7 @@
 - In your terminal type "npm install" and press enter to install Node-Package-Manager.
 - When finished run the command "npm start."
 - You will be prompted to choose whether to run this command on a different port. Select yes and your app should start in your browser.
+- If you land on a Page Not Found do not worry, there ought to be a navbar at the top of the page with links to the contents of the app.
 
 # Project Status
 - Project is awaiting instructor review, and will possibly be revisited in order to expand functionality as new coding concepts are learned by the owner.

@@ -10,12 +10,10 @@ import PageNotFound from './PageNotFound';
 import NavBar from './NavBar';
 
 function App() {
-  // console.log("inside app")
   const [games, setGames] = useState([])
 
       // create a handle submit state update function to pass to AddNewGame
       function handleAddGame(newGame){
-        // console.log(newGame.name)
         setGames([...games, newGame])
     }
 

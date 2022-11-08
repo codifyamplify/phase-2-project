@@ -6,13 +6,9 @@ import React, {useState} from "react"
 // -- will need to pass down submit state update function from GamesList
 
 function AddNewGame({onAddGame}){
-    // console.log("inside AddNewGame")
-
     const [newGameName, setNewGameName] = useState("")
     const [newGameImageURL, setNewGameImageURL] = useState("")
 
-    // console.log(newGameName)
-    // console.log(newGameImageURL)
 
     // create submit handler and use onAddGame to update state
     function handleSubmit(event){
@@ -29,7 +25,6 @@ function AddNewGame({onAddGame}){
             body: JSON.stringify(newGameData),
         })
             .then((response) => response.json())
-            // .then((newGame) => console.log(newGame))
             .then((newGame) => onAddGame(newGame))
 
         console.log("any old nonsense")

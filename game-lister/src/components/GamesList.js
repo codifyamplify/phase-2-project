@@ -13,12 +13,9 @@ function GamesList({games, setGames}){
 
 
 
-    // console.log("inside gameslist")
-    // console.log(games)
 
     // write a completed click handler
     // function handleCompletedClick(completedGame){
-    //     console.log("completed click was heard in GameList")
     //     const updatedGamesList = games.map((game) => {
     //         if (game.completed === completedGame.completed) {
     //             return completedGame
