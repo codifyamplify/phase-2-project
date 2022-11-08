@@ -39,3 +39,11 @@ Known Issues:
 - json.server port issue. commit message: "discovered issue with json-server. have to start json-
 server first, then run npm start, which requires npm to start on a different port, since json-server is
  already running on 3000 port. don't know how to resolve. will need instructor's guidance."
+
+ Daily Goals: 11/7/22
+ - learn to reset AddNewGame form to text fields are empty or hold default text
+ - learn routing project requirements
+ - review lecture with Enoch on Routing basics
+ - implement routing
+ - if unsuccessful dig into curriculum
+ - if successful review post project tasks

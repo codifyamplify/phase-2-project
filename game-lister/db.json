@@ -34,6 +34,21 @@
       "name": "Trails in the Sky the 3rd",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23da.png",
       "id": 6
+    },
+    {
+      "name": "The Last Guardian",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co271e.png",
+      "id": 7
+    },
+    {
+      "name": "The Last Guardian",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co271e.png",
+      "id": 8
+    },
+    {
+      "name": "Persona 4",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u07.png",
+      "id": 9
     }
   ]
 }

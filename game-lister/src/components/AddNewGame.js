@@ -31,6 +31,11 @@ function AddNewGame({onAddGame}){
             .then((response) => response.json())
             // .then((newGame) => console.log(newGame))
             .then((newGame) => onAddGame(newGame))
+
+        console.log("any old nonsense")
+        setNewGameName("")
+        setNewGameImageURL("")
+
     }
 
     return (
