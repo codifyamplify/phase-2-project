@@ -1,16 +1,11 @@
 import React, {useState} from "react"
 
-// STATE NOTES:
-// -- will need to create a state for new game NAME
-// -- will need to create a state for new game IMAGE URL
-// -- will need to pass down submit state update function from GamesList
 
 function AddNewGame({onAddGame}){
     const [newGameName, setNewGameName] = useState("")
     const [newGameImageURL, setNewGameImageURL] = useState("")
 
 
-    // create submit handler and use onAddGame to update state
     function handleSubmit(event){
         event.preventDefault()
         const newGameData =  {
@@ -37,9 +32,6 @@ function AddNewGame({onAddGame}){
     <div className="newGameComponent">
         <h2 className="h2">Add New Game</h2>
         <h3>Here you can add a game that you would like to play someday, and never forget it until you mark it off as "completed!" Just provide the name of the game in the "text field", and an image URL in the "image URL field." (We recommend grabbing an image URL from igdb.com - the internet game database!)</h3>
-        {/* will need two inputs: one for game name and one for image URL */}
-        {/* add event listeners onChange for text fields to capture text and save it to state */}
-        {/* will need a submit button, and a submit handler attached to the form */}
         <form 
             className="newGameForm"
             onSubmit={handleSubmit}
