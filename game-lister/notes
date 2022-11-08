@@ -34,6 +34,7 @@ State heirarchy sketch:
 App
 >>GamesList(fetches data from db.json)(passes down to GameCard)
 
+===================================================================================
 
 Known Issues:
 - json.server port issue. commit message: "discovered issue with json-server. have to start json-
@@ -41,9 +42,28 @@ server first, then run npm start, which requires npm to start on a different por
  already running on 3000 port. don't know how to resolve. will need instructor's guidance."
 
  Daily Goals: 11/7/22
- - learn to reset AddNewGame form to text fields are empty or hold default text
- - learn routing project requirements
+ - learn to reset AddNewGame form to text fields are empty or hold default text <check!>
+ - learn routing project requirements <check!>
  - review lecture with Enoch on Routing basics
  - implement routing
  - if unsuccessful dig into curriculum
  - if successful review post project tasks
+
+notes to self 11/7/22: install react router by running this command:
+- npm install react-router-dom@v5
+- if you don't include @v5 at the end you will get a more recent version. we want to use v5 for this project
+- THIS IS ALL THE SETUP REQUIRED TO USE REACT-ROUTER
+- Use RESTful conventions for path naming
+- use at least THREE routes
+- using a Switch makes sure that the first (truthy) path found is the ONLY path loaded (no unintended stacking appending)
+- INCLUDE NAVBAR. this will require a component reorganization.
+
+Updated Component Heirarchy Sketch:
+- App
+    - Header
+    - GamesList
+        - AddNewGames
+        - GameCard
+
+Components Sketch #2 - covering only major changes to component AND new components
+- create simple PageNotFound component (this can be a route!)

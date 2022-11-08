@@ -4,6 +4,13 @@
   background:whitesmoke
 }
 
+.block {
+  background-color:rgb(160, 109, 73);
+  border-style: solid;
+  border-color: brown;
+  padding: 20px;
+}
+
 .header {
   background-color:rgb(160, 109, 73);
   border-style: solid;
