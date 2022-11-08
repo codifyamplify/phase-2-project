@@ -1,13 +1,13 @@
 import React from "react"
 
-function Header(){
+function Home(){
     return (
         // return JSX
-        <div className="header">
+        <div className="home">
             <h1 className="h1">Game Lister</h1>
             <h3 className="h3">Your one-stop-shop to keep track of your dream playlist of the games you are most excited about!</h3>
         </div>
     )
 }
 
-export default Header
+export default Home

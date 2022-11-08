@@ -49,6 +49,11 @@
       "name": "Persona 4",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u07.png",
       "id": 9
+    },
+    {
+      "name": "S.T.A.L.K.E.R.",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pz7.png",
+      "id": 10
     }
   ]
 }
