@@ -69,6 +69,11 @@
       "name": "La Noire",
       "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ldn.png",
       "id": 13
+    },
+    {
+      "name": "The Legend of Zelda",
+      "imageURL": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.png",
+      "id": 14
     }
   ]
 }

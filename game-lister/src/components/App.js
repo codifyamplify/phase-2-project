@@ -1,5 +1,5 @@
 import '../App.css';
-import React, {useState} from "react"
+import React, {useState, useEffect} from "react"
 import Home from "./Home"
 import GamesList from "./GamesList"
 import AddNewGame from "./AddNewGame"
@@ -10,6 +10,13 @@ import NavBar from './NavBar';
 
 function App() {
   const [games, setGames] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3000/games")
+        .then((response) => response.json())
+        .then((games) => setGames(games))
+  }, [])
+
 
       function handleAddGame(newGame){
         setGames([...games, newGame])

@@ -1,17 +1,7 @@
-import React, {useState, useEffect} from "react"
+import React, {useState} from "react"
 import GameCard from "./GameCard"
 
 function GamesList({games, setGames}){
-    useEffect(() => {
-        fetch("http://localhost:3000/games")
-            .then((response) => response.json())
-            .then((games) => setGames(games))
-    }, [])
-
-
-
-
-
 
     return (
         <div className="gameList">
